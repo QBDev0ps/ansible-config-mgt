@@ -1,5 +1,5 @@
 ---
   - hosts: database
-  roles:
-    - role: geerlingguy.mysql
+    roles:
+    - role: mysql
       become: yes
