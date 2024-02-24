@@ -1,0 +1,12 @@
+# [jenkins]
+
+# [nginx]
+
+# [sonarqube:vars]
+
+# [sonarqube]
+
+# [sonarqube]
+
+[artifactory]
+172.31.44.193cd ..
