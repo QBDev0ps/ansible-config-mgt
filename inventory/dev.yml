@@ -9,5 +9,5 @@
 #172.31.27.44 ansible_ssh_user=ec2-user
 #172.31.22.254 ansible_ssh_user=ec2-user
 
-[nginx]
-172.31.47.245 ansible_ssh_user='ec2-user'
+#[nginx]
+#172.31.47.245 ansible_ssh_user='ec2-user'

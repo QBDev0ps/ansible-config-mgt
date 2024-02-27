@@ -3,6 +3,11 @@
 #  roles:
 #     - webserver
 
-- hosts: nginx
+#- hosts: nginx
+#  roles:
+#     - nginx
+
+- hosts: artifactory
+  become: true
   roles:
-     - nginx
+    - artifactory
