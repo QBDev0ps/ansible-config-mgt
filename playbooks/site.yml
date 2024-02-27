@@ -37,4 +37,4 @@
 
 - hosts: artifactory
 - name: artifactory assignment
-  ansible.builtin.import_playbook: ../static-assignments/artifactory.yml
+  ansible.builtin.import_playbook: ../static-assignments/uat-webservers.yml
