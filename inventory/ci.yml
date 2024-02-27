@@ -9,4 +9,4 @@
 # [sonarqube]
 
 [artifactory]
-172.31.44.193 ansible_user='ec2-user'
+172.31.44.193

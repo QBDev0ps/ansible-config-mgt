@@ -9,4 +9,4 @@
 
 - hosts: artifactory
   roles:
-    - artifactory
+     - artifactory
