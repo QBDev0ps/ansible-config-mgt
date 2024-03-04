@@ -1,5 +1,5 @@
-#[db]
-#172.31.24.88 ansible_ssh_user=ubuntu
+[db]
+172.31.44.66 ansible_ssh_user='ec2-user'
 
 #[lb]
 #172.31.17.163 ansible_ssh_user=ubuntu

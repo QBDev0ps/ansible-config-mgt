@@ -7,6 +7,10 @@
 #  roles:
 #     - nginx
 
-- hosts: artifactory
+#- hosts:  artifactory                                                                                                                                                                                                                                - hosts: artifactory
+#  roles:
+#     - artifactory
+
+- hosts: db
   roles:
-     - artifactory
+     - mysql
