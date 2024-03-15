@@ -11,6 +11,6 @@
 #  roles:
 #     - artifactory
 
-- hosts: db
-  roles:
-     - mysql
+# - hosts: db
+#   roles:
+#      - mysql
