@@ -53,7 +53,7 @@
         url: http://13.49.158.35:8082/artifactory/qbello/php-todo
         dest: /home/ec2-user/
         url_username: admin
-        url_password: cmVmdGtuOjAxOjE3NDIwNzc5MDA6QVR3MzNiS0hBdDZ6QVEyaXcxbVF2S2Y0YzdU  
+        url_password: cmVmdGtuOjAxOjE3NDIwNzc5MDA6QVR3MzNiS0hBdDZ6QVEyaXcxbVF2S2Y0YzdU
 
 
     - name: unzip the artifacts
