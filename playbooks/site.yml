@@ -27,13 +27,13 @@
 #- name: nginx assignment
 #  ansible.builtin.import_playbook: ../static-assignments/uat-webservers.yml
 
-# - hosts: sonar
-# - name: sonar assignment
-#   ansible.builtin.import_playbook: ../static-assignments/sonar.yml
+- hosts: sonar
+- name: sonar assignment
+  ansible.builtin.import_playbook: ../static-assignments/sonar.yml
 
-- hosts: todo
-- name: Deploy the todo application
-  ansible.builtin.import_playbook: ../static-assignments/deployment.yml
+# - hosts: todo
+# - name: Deploy the todo application
+#   ansible.builtin.import_playbook: ../static-assignments/deployment.yml
 
 #- hosts: artifactory
 #- name: artifactory assignment
