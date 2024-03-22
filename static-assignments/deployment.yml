@@ -50,10 +50,10 @@
 
     - name: Download the artifact
       get_url:
-        url: https://16.16.90.253:8082/artifactory/qbello/php-todo
+        url: http://16.170.164.195:8082/artifactory/qbello/php-todo
         dest: /home/ec2-user/
         url_username: admin
-        url_password: cmVmdGtuOjAxOjE3NDIwNzc5MDA6QVR3MzNiS0hBdDZ6QVEyaXcxbVF2S2Y0YzdU
+        url_password: cmVmdGtuOjAxOjE3NDI2NzAxNTg6MVFXdDVlS09IT0JNY0FMU0E4c1AwNXcyelo2
 
 
     - name: unzip the artifacts
