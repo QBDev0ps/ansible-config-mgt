@@ -5,8 +5,8 @@
 
 # [sonarqube:vars]
 
-[sonar]
-172.31.9.115 ansible_ssh_user=ubuntu
+[sonarqube]
+172.31.9.9 ansible_ssh_user=ubuntu
 
 # [artifactory]
 # 172.31.5.124
